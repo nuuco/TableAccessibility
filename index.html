@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 접근성 높은 테이블 만들기</title>
+    <link href="tableStyle.css" rel="stylesheet"/>
+</head>
+<body>
+<h1>웹 접근성 높은 테이블 만들기</h1>
+
+<h2>* 운송물의 크기나 무게, 거리에 따라 가격이 달라요.</h2>
+<table>
+    <caption>운송물의 크기, 무게, 거리에 따른 요금 안내 - 극소형 2kg이하(60cm이하), 소형 2kg~10kg(60cm~120cm), 중형 10kg~20kg(120cm~140cm), 대형 20kg~30kg(140cm~160cm) 4분류로 구성</caption>
+    <thead>
+        <tr id="head">
+            <th scope="col">구분</th>
+            <th scope="col">극(초)소형</th>
+            <th scope="col">소형</th>
+            <th scope="col">중형</th>
+            <th scope="col">대형</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">중량</th>
+            <td>2kg 이하</td>
+            <td>10kg 이하</td>
+            <td>20kg 이하</td>
+            <td>30kg 이하</td>
+        </tr>
+        <tr>
+            <th scope="row">규격<br/>(세변의 합)</th>
+            <td>60cm 이하<img src="images/verySmall.gif" alt="가로세로높이의 합이 60센티미터 이하"/></td>
+            <td>120cm 이하<img src="images/small.gif" alt="가로세로높이의 합이 120센티미터 이하"/></td>
+            <td>140cm 이하<img src="images/medium.gif" alt="가로세로높이의 합이 140센티미터 이하"></td>
+            <td>160cm 이하<img src="images/large.gif" alt="가로세로높이의 합이 160센티미터 이하"></td>
+        </tr>
+        <tr>
+            <th scope="row">동일권</th>
+            <td>5,000원</td>
+            <td>6,000원</td>
+            <td>7,000원</td>
+            <td>8,000원</td>
+        </tr>
+        <tr>
+            <th scope="row">타권역</th>
+            <td>6,000원</td>
+            <td>7,000원</td>
+            <td>8,000원</td>
+            <td>9,000원</td>
+        </tr>
+        <tr>
+            <th scope="row">제주권</th>
+            <td>8,000원</td>
+            <td>9,000원</td>
+            <td>10,000원</td>
+            <td>11,000원</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
