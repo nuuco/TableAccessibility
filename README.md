@@ -18,10 +18,10 @@ https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=663&ccfNo=2&cciNo=2&c
 <i style="color:gray">* 이 파트는 원래 4번째 이지만, 설명하기 쉽도록 순서를 변경했습니다.</i>  
 
 ### 주로 체크할 내용(테이블 작성 시 자주 빠뜨리는 내용)
-1. caption (summery)  
+1. caption (summary)  
     *  table 내용의 제목 또는 간단한 요약을 `<caption>` 태그로 적어준다.
     * 한 테이블에 대해 캡션과 요약이 모두 제공되는 경우 요약은 캡션에 있는 정보와 중복되어서는 안 된다.
-    * table의 summery 속성은 HTML5 부터는 비표준이 되었다. 그러니 가능하면 `<caption>` 태그로 설명을 넣어주자.
+    * table의 summary 속성은 HTML5 부터는 비표준이 되었다. 그러니 가능하면 `<caption>` 태그로 설명을 넣어주자.
     * caption 태그는 table 태그의 첫번째 자식 요소로 위치해야한다.
     * caption 태그의 내용을 노출시키지 않고, 스크린 리더만 읽게 해주고 싶을 때는 <code>text-indent: -9999px</code> 로  안 보이게 처리한다.
 
